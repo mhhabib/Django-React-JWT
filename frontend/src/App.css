@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+html {
+  position: relative;
+  overflow-x: hidden !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #f0e8d0;
+  background-color: #2f3337;
+}
+.homeSection {
+  margin-top: 5%;
+  display: block;
+  padding: 20px;
+}
+.loginCard {
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.paragraph {
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.nav-link {
+  color: #abc270;
+}
+.nav-link:hover,
+.nav-link-active {
+  font-weight: 700;
+  color: #abc270;
+}
+@media screen and (min-width: 760px) {
+  .loginCard {
+    width: 50%;
+  }
+}
+
+/*
+.header {
+  background-color: #161b22;
+}
+.serachzone {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input {
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #161b22;
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+}
+::placeholder {
+  color: #fff;
+  font-size: 1rem;
+}
+
+select {
+  padding: 10px 25px;
+  background-color: #161b22;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 50px;
+} */
